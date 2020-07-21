@@ -30,7 +30,7 @@
 <div class="page" data-title="<?php p($l->t('Extend your cloud')); ?>" data-subtitle="">
 	<div class="image"><img src="<?php p(image_path('firstrunwizard', 'appstore.svg')); ?>" /></div>
 	<div class="description">
-		<p><?php p($l->t('Find more than 100 apps in the deetcloud app store to customize your cloud:')); ?></p>
+		<p><?php p($l->t('Find more than 100 apps in the deecloud app store to customize your cloud:')); ?></p>
 		<ul>
 			<li><?php p($l->t('Groupware apps like Calendar, Contacts, Mail')); ?></li>
 			<li><?php p($l->t('Communication with deecloud Talk')); ?></li>
