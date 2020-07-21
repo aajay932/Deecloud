@@ -28,10 +28,10 @@
  */
 ?>
 
-<div class="page" data-title="<?php p($l->t('A safe home for all your data')); ?>" data-subtitle="">
+<div class="page" data-title="<?php p($l->t('Secure destination for data')); ?>" data-subtitle="">
 	<div class="content content-values">
 		<p>
-			<?php p($l->t('Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know.')); ?>
+			<?php p($l->t('deecloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know.')); ?>
 		</p>
 
 		<ul id="wizard-values">
@@ -45,7 +45,7 @@
 			</li>
 			<li>
 				<span class="icon-user"></span>
-				<h3><?php p($l->t('100%% Open Source & community-focused')); ?></h3>
+				<h3><?php p($l->t(' Open Source & community-focused')); ?></h3>
 			</li>
 		</ul>
 
