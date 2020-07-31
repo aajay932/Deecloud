@@ -10,7 +10,7 @@ style('federatedfilesharing', 'settings-personal');
 	<a target="_blank" rel="noreferrer noopener" class="icon-info svg"
 	title="<?php p($l->t('Open documentation'));?>"
 	href="<?php p(link_to_docs('user-sharing-federated')); ?>"></a>
-	<p class="settings-hint"><?php p($l->t('You can share with anyone who uses a Nextcloud server or other Open Cloud Mesh (OCM) compatible servers and services! Just put their Federated Cloud ID in the share dialog. It looks like person@cloud.example.com')); ?></p>
+	<p class="settings-hint"><?php p($l->t('You can share with anyone who uses a Deecloud server or other Open Cloud Mesh (OCM) compatible servers and services! Just put their Federated Cloud ID in the share dialog. It looks like person@cloud.example.com')); ?></p>
 
 	<p>
 		<?php p($l->t('Your Federated Cloud ID:')); ?>
@@ -44,7 +44,7 @@ style('federatedfilesharing', 'settings-personal');
 		<a target="_blank" rel="noreferrer noopener" href="<?php p($_['reference']); ?>"
 			style="padding:10px;background-color:<?php p($_['color']); ?>;color:<?php p($_['textColor']); ?>;border-radius:3px;padding-left:4px;">
 			<span style="background-image:url(<?php p(\OC::$server->getURLGenerator()->getAbsoluteURL($_['logoPath'])); ?>);width:50px;height:30px;position:relative;top:8px;background-size:contain;display:inline-block;background-repeat:no-repeat; background-position: center center;"></span>
-			<?php p($l->t('Share with me via Nextcloud')); ?>
+			<?php p($l->t('Share with me via Deecloud')); ?>
 		</a>
 	</p>
 
@@ -52,7 +52,7 @@ style('federatedfilesharing', 'settings-personal');
 		<?php p($l->t('HTML Code:')); ?>
 		<xmp><a target="_blank" rel="noreferrer noopener" href="<?php p($_['reference']); ?>" style="padding:10px;background-color:<?php p($_['color']); ?>;color:<?php p($_['textColor']); ?>;border-radius:3px;padding-left:4px;">
 <span style="background-image:url(<?php p(\OC::$server->getURLGenerator()->getAbsoluteURL($_['logoPath'])); ?>);width:50px;height:30px;position:relative;top:8px;background-size:contain;display:inline-block;background-repeat:no-repeat; background-position: center center;"></span>
-<?php p($l->t('Share with me via Nextcloud')); ?></a></xmp>
+<?php p($l->t('Share with me via Deecloud')); ?></a></xmp>
 	</p>
 	</div>
 

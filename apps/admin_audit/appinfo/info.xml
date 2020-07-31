@@ -3,17 +3,17 @@
 	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
 	<id>admin_audit</id>
 	<name>Auditing / Logging</name>
-	<summary>Provides logging abilities for Nextcloud such as logging file accesses or otherwise sensitive actions.</summary>
-	<description>Provides logging abilities for Nextcloud such as logging file accesses or otherwise sensitive actions.</description>
+	<summary>Provides logging abilities for deetcloud such as logging file accesses or otherwise sensitive actions.</summary>
+	<description>Provides logging abilities for deecloud such as logging file accesses or otherwise sensitive actions.</description>
 	<version>1.9.0</version>
 	<licence>agpl</licence>
-	<author>Nextcloud</author>
+	<author>deecloud</author>
 	<namespace>AdminAudit</namespace>
 	<types>
 		<logging/>
 	</types>
 	<category>monitoring</category>
-	<bugs>https://github.com/nextcloud/server/issues</bugs>
+	<bugs>https://github.com/deecloud/server/issues</bugs>
 	<dependencies>
 		<nextcloud min-version="19" max-version="19"/>
 	</dependencies>
