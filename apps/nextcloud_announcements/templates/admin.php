@@ -27,8 +27,8 @@ script('nextcloud_announcements', 'admin');
 /** @var \OCP\IL10N $l */
 ?>
 <div id="nextcloud_announcements" class="section">
-	<h2 class="inlineblock"><?php p($l->t('Nextcloud announcements')); ?></h2>
-	<p class="settings-hint"><?php p($l->t('Shows the latest news of Nextcloud in your notifications.')); ?></p>
+	<h2 class="inlineblock"><?php p($l->t('Deecloud announcements')); ?></h2>
+	<p class="settings-hint"><?php p($l->t('Shows the latest news of Deecloud in your notifications.')); ?></p>
 
 	<p>
 		<input type="hidden" name="notification_groups" class="notification_groups" value="<?php p($_['groups']) ?>" style="width: 320px;" />

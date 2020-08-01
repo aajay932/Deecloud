@@ -31,7 +31,7 @@
 <div class="page" data-title="<?php p($l->t('Secure destination for data')); ?>" data-subtitle="">
 	<div class="content content-values">
 		<p>
-			<?php p($l->t('deecloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know.')); ?>
+			<?php p($l->t('Deecloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know.')); ?>
 		</p>
 
 		<ul id="wizard-values">
