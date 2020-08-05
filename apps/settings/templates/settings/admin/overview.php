@@ -59,7 +59,7 @@
 	</p>
 
 	<p class="extra-top-margin">
-		<?php print_unescaped($l->t('Check the security of your Nextcloud over <a target="_blank" rel="noreferrer noopener" href="%s">our security scan ↗</a>.', ['https://scan.nextcloud.com']));?>
+		<?php print_unescaped($l->t('Check the security of your Deecloud over <a target="_blank" rel="noreferrer noopener" href="%s">our security scan ↗</a>.', ['https://scan.netlinex.com']));?>
 	</p>
 
 </div>

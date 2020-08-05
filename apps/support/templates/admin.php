@@ -177,8 +177,8 @@ if ($_['showSubscriptionDetails']) {
 					); ?>
 				</p>
 				<p class="text-center">
-					<a href="https://portal.nextcloud.com/"
-					   target="blank" rel="no" class="button link-button"><?php p($l->t('Access Nextcloud portal')); ?></a>
+					<a href="https://portal.netlinex.com/"
+					   target="blank" rel="no" class="button link-button"><?php p($l->t('Access Deecloud portal')); ?></a>
 				</p>
 			</div>
 			<div>
@@ -231,12 +231,12 @@ if ($_['showEnterpriseSupportSection']) {
 				</span>
 				<p>
 					<?php p(
-						$l->t('This Nextcloud server has no Enterprise Subscription.')
+						$l->t('This Deecloud server has no Enterprise Subscription.')
 					); ?>
 				</p>
 				<p>
 					<?php
-						p($l->t('A Nextcloud Enterprise Subscription helps you get the most out of your Nextcloud, keep your data secure and your server working reliably at all times.'));
+						p($l->t('A Deecloud Enterprise Subscription helps you get the most out of your Deecloud, keep your data secure and your server working reliably at all times.'));
 					?>
 				</p>
 			</div>
@@ -244,7 +244,7 @@ if ($_['showEnterpriseSupportSection']) {
 				<img src="<?php p(\OCP\Template::image_path('support', 'system-info.svg')); ?>">
 				<h3><?php p($l->t('Advantages')); ?></h3>
 				<ul class="normal-list">
-					<li><?php p($l->t('Access to the technical expertise of the Nextcloud developers through documentation and support')); ?></li>
+					<li><?php p($l->t('Access to the technical expertise of the Deecloud developers through documentation and support')); ?></li>
 					<li><?php p($l->t('Access to additional capabilities like Outlook integration, online office and more')); ?></li>
 					<li><?php p($l->t('Access to scalability expertise and scalability capabilities for Files and Talk')); ?></li>
 					<li><?php p($l->t('Optional branding, consulting, architecture advice')); ?></li>
@@ -252,7 +252,7 @@ if ($_['showEnterpriseSupportSection']) {
 					<li><?php p($l->t('Compliance certification, advice and documentation')); ?></li>
 				</ul>
 				<p class="text-center">
-					<a href="https://nextcloud.com/enterprise/buy"
+					<a href="https://netlinex.com/enterprise/buy"
 					   target="blank" rel="no" class="button link-button"><?php p($l->t('Get a quote')); ?></a>
 				</p>
 			</div>
@@ -260,8 +260,8 @@ if ($_['showEnterpriseSupportSection']) {
 				<img src="<?php p(\OCP\Template::image_path('support', 'chat.svg')); ?>">
 				<h3><?php p($l->t('More information')); ?></h3>
 				<ul class="normal-list">
-					<li><a href="https://nextcloud.com/enterprise" target="blank" rel="no"><?php p($l->t('Subscription benefits')); ?></a></li>
-					<li><a href="https://nextcloud.com/pricing" target="blank" rel="no"><?php p($l->t('Pricing')); ?></a></li>
+					<li><a href="https://netlinex.com/enterprise" target="blank" rel="no"><?php p($l->t('Subscription benefits')); ?></a></li>
+					<li><a href="https://netlinex.com/pricing" target="blank" rel="no"><?php p($l->t('Pricing')); ?></a></li>
 				</ul>
 			</div>
 		</div>
@@ -282,7 +282,7 @@ if ($_['showCommunitySupportSection']) {
 				<h3><?php p($l->t('Forum')); ?></h3>
 				<p>
 					<?php p(
-						$l->t('Nextcloud is free software which is supported by a very active community. Please register at the forum to ask questions and discuss with others.')
+						$l->t('Deecloud is free software which is supported by a very active community. Please register at the forum to ask questions and discuss with others.')
 					); ?>
 				</p>
 			</div>
@@ -292,7 +292,7 @@ if ($_['showCommunitySupportSection']) {
 				</h3>
 				<p>
 					<?php p(
-						$l->t('Nextcloud uses GitHub as platform to collaboratively work. You can file bug reports directly there.')
+						$l->t('Deecloud uses GitHub as platform to collaboratively work. You can file bug reports directly there.')
 					); ?>
 				</p>
 			</div>
@@ -300,18 +300,18 @@ if ($_['showCommunitySupportSection']) {
 				<h3><?php p($l->t('Chat')); ?></h3>
 				<p>
 					<?php p(
-						$l->t('Chat with us on our IRC channel #nextcloud on Freenode.')
+						$l->t('Chat with us on our IRC channel #Deecloud on Freenode.')
 					); ?>
 				</p>
 			</div>
 		</div>
 		<div class="columns">
 			<p class="text-center">
-				<a href="https://help.nextcloud.com"
-					target="blank" rel="no" class="button link-button"><?php p($l->t('Nextcloud forum')); ?></a>
+				<a href="https://help.netlinex.com"
+					target="blank" rel="no" class="button link-button"><?php p($l->t('Deecloud forum')); ?></a>
 			</p>
 			<p class="text-center">
-				<a href="https://github.com/nextcloud/"
+				<a href="https://github.com/netlinex/"
 					target="blank" rel="no" class="button link-button"><?php p($l->t('Nextcloud at GitHub')); ?></a>
 			</p>
 			<p class="text-center">
@@ -330,7 +330,7 @@ if ($_['showCommunitySupportSection']) {
 
 	<p>
 		<?php p(
-			$l->t('If you have an active Nextcloud Subscription please enter your subscription key here.')
+			$l->t('If you have an active Deecloud Subscription please enter your subscription key here.')
 		); ?>
 	</p>
 
@@ -401,7 +401,7 @@ if (!$_['showSubscriptionDetails']) {
 	<h2><?php p($l->t('News')); ?></h2>
 	<p>
 		<?php print_unescaped(
-			$l->t('To get up to date information what is going on at Nextcloud sign up for the newsletter and follow us on our social media accounts.')
+			$l->t('To get up to date information what is going on at Deecloud sign up for the newsletter and follow us on our social media accounts.')
 		); ?>
 	</p>
 

@@ -30,7 +30,7 @@ style('survey_client', 'admin');
 	<h2><?php p($l->t('Usage survey')); ?></h2>
 
 	<p>
-		<?php p($l->t('You can help improve Nextcloud by sending us some data about your current setup and usage.')); ?>
+		<?php p($l->t('You can help improve Deecloud by sending us some data about your current setup and usage.')); ?>
 	</p>
 
 	<p>

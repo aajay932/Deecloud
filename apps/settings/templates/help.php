@@ -23,12 +23,12 @@
 	<?php } ?>
 
 		<li>
-			<a href="https://docs.nextcloud.com" class="icon-category-office" target="_blank" rel="noreferrer noopener">
+			<a href="http://docs.netlinex.com" class="icon-category-office" target="_blank" rel="noreferrer noopener">
 				<?php p($l->t('Documentation')); ?> ↗
 			</a>
 		</li>
 		<li>
-			<a href="https://help.nextcloud.com" class="icon-comment" target="_blank" rel="noreferrer noopener">
+			<a href="https://help.netlinex.com" class="icon-comment" target="_blank" rel="noreferrer noopener">
 				<?php p($l->t('Forum')); ?> ↗
 			</a>
 		</li>
